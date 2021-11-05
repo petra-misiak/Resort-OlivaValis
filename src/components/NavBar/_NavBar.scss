@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+
+    
+
+    &-logo{
+        font-family: 'Tangerine';
+        font-size: 50px;
+        font-weight: 800;
+        color: black;
+        letter-spacing: 3px;
+    }
+
+    &-icon{
+
+    }
+
+    &-menu active{
+
+    }
+
+    &-menu{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+        text-align: center;
+        width: 40%;
+        list-style: none;
+       
+    }
+
+    &-links{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: Roboto, sans-serif;    
+        font-weight: 600;
+        color: #A9A9A9;  
+        padding-bottom: 27px;
+     
+
+        &:hover{
+            display: block;
+            color: black;
+            border-bottom: 4px solid #A5A5A5;
+            
+        }
+    }
+
+    &-icon{
+        display: none;
+    }
+}
+
