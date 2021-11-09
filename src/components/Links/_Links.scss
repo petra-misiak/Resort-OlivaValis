@@ -1,0 +1,27 @@
+.links{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+
+    &-fullOL{
+        width: 50%;
+    }
+
+    &-stay-safe{
+        width: 50%;
+    }
+
+    &-safe-travel{
+        width: 50%;
+    }
+
+    &-tzzadar{
+        width: 50%;
+    }
+    &-zadar{
+        width: 50%;
+    }
+}

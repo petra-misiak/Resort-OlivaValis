@@ -1,0 +1,68 @@
+.image-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    background-color: rgb(252, 248, 248);
+
+    &-top{
+       display: flex;
+       justify-content: space-around;
+
+
+       &-img1{
+           width: 45%;
+       }
+
+       &-p1{
+           font-size: 30px;
+           font-family: 'Roboto';
+           width: 40%;
+          
+
+       }
+    }
+
+    &-bottom{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        
+        &-p2{
+            font-size: 30px;
+            font-family: 'Roboto';
+            width: 40%;
+        }
+        
+        &-img2{
+            width: 45%;
+        }
+    }
+}
+
+// ! RWD
+
+@media(max-width: 450px){
+    .image-text{
+
+        &-top{
+
+
+            &-img1{
+
+            }
+
+            &-p1{
+                font-size: 10px;
+            }
+
+        }
+        &-bottom{
+            &-p2{
+                font-size: 10px;
+            }
+        }
+
+
+    }
+}

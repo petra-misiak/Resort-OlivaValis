@@ -1,0 +1,36 @@
+.icons{
+    // background-color:  rgb(252 248 248);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+    &-all{
+        text-align: center;
+        
+        &-home{
+            font-size: 80px;
+            color: rgb(169 169 169);
+        }
+        &-parking{
+        font-size: 80px;
+        color: rgb(169 169 169);
+        }
+         &-pool{
+        font-size: 80px;
+        color: rgb(169 169 169);
+        }
+        &-person{
+        font-size: 80px;
+        color: rgb(169 169 169);
+        }
+         &-wifi{
+        font-size: 80px;
+        color: rgb(169 169 169);
+        }
+    
+    }
+    &-text{
+        font-size: 15px;
+        color: rgb(169 169 169);
+}
+}

@@ -1,0 +1,28 @@
+.distance{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252 248 248);
+
+    &-text{
+        color: rgb(169 169 169);
+        width: 20%;
+        text-align: end;
+        margin-right: 20px;
+    }
+    &-all{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+
+        &-transportation{
+
+        }
+
+        &-hospital{
+
+        }
+        &-sea{
+
+        }
+    }
+}

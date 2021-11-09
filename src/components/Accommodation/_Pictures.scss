@@ -1,0 +1,50 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pictures img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pictures{
+    box-sizing: border-box;
+    background-color: rgb(252 248 248);
+    padding: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); 
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    
+
+    &-1{
+        grid-row: span 2;
+        
+    }
+    &-2{
+      
+      
+    }
+
+    &-3{
+        grid-column: span 2;
+    }
+    &-4{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    &-5{
+        grid-row: span 2;
+    }
+    &-6{
+      
+        
+    }
+    &-7{
+        grid-column: span 2;
+
+    }
+}

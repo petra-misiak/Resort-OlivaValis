@@ -16,7 +16,7 @@ const NavBar = () => {
             <div className={['navbar-icon']} onClick={handleClick}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className={clicked ? ['navbar-menu active'] : ['navbar-menu']}>
+            <ul className={clicked ? ['navbar-menu-active'] : ['navbar-menu']}>
                 {MenuItems.map((item, index) => {
                     return (
                         <li key={index}>

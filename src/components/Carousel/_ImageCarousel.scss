@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 
 
     &-right{
@@ -11,7 +12,7 @@
         top: 50%;
         right: 150px;
         font-size: 3rem;
-        color: black;
+        color: rgb(212, 209, 209);
         z-index: 10;
         cursor: pointer;
         user-select: none;
@@ -21,7 +22,7 @@
         top: 50%;
         left: 150px;
         font-size: 3rem;
-        color: black;
+        color: rgb(212, 209, 209);
         z-index: 10;
         cursor: pointer;
         user-select: none;
@@ -40,11 +41,38 @@
 
 .slide{
     opacity: 0;
-    transition-duration: 1s ease;
+    transition-duration: 0.5s ease;
 }
 
 .slide.active{
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transform: scale(1.08);
+}
+
+//! RWD
+
+@media(max-width: 450px){
+    .carousel{
+
+
+        &-image{
+            margin-top: 90px;
+            margin-left: 32px;
+            width: 85%;
+        }
+
+        &-left{
+            font-size: 2rem;
+            top: 60%;
+            left: 35px;
+        }
+        &-right{
+            font-size: 2rem;
+            top: 60%;
+            right: 35px;
+        }
+
+        
+    }
 }
