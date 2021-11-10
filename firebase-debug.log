@@ -1,0 +1,21 @@
+[debug] [2021-11-09T15:53:07.235Z] ----------------------------------------------------------------------
+[debug] [2021-11-09T15:53:07.237Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mmisi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-09T15:53:07.237Z] CLI Version:   9.22.0
+[debug] [2021-11-09T15:53:07.238Z] Platform:      win32
+[debug] [2021-11-09T15:53:07.238Z] Node Version:  v14.17.6
+[debug] [2021-11-09T15:53:07.239Z] Time:          Tue Nov 09 2021 16:53:07 GMT+0100 (czas środkowoeuropejski standardowy)
+[debug] [2021-11-09T15:53:07.239Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-09T15:53:07.246Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-09T15:53:07.246Z] > authorizing via signed-in user (petra.tarokic@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mmisi\Desktop\resort-olivavalis
+

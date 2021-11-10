@@ -1,0 +1,59 @@
+@import '../../scss/elements/colors';
+@import '../../scss/settings/fonts';
+
+.form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    &-h2{ 
+        font-size: 35px;
+        color: $color-lightgrey-text;
+        font-weight: 100;
+        border-radius: 3px;
+        font-family: $font-roboto;
+    }
+    &-label{
+      font-size: 20px;  
+      font-family: $font-roboto;
+      color: $color-section;
+    }
+    &-input{
+        padding: 20px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        border: 2px solid $color-lightgrey-text;
+        background: $color-lightgrey-space;
+        font-size: 16px;
+        font-family: $font-roboto;
+        // color: rgb(0, 0, 32);
+        outline: none;
+        max-width: 530px;
+        :focus{
+            border: 1px solid $color-lightgrey-text;
+        }
+    }
+    &-textarea{
+        border: 2px solid $color-lightgrey-text;
+        background-color: $color-lightgrey-space;
+        height: 150px;
+        max-width: 530px;
+        min-height: 100px;
+        font-size: 16px;
+        font-family: $font-roboto;
+    }
+    &-button{
+        padding: 20px;
+        border: none;
+        background-color: $color-button;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 3px;
+        color: $color-white;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        margin-top: 10px;
+        max-width: 530px;
+    }
+}

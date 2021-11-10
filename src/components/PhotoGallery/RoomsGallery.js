@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-import images from './InteriorImageData';
-import './_Interior.scss';
+import images from './RoomImageData';
+import './_RoomsGallery.scss';
 
-const Interior = () => {
+const RoomsGallery = () => {
     const [imageToShow, setImageToShow] = useState("");
     const [lightboxDisplay, setLightboxDisplay] = useState(false);
 
@@ -42,18 +42,20 @@ const Interior = () => {
     };
 
     return (
-        <div className="interior">
-            <h2 className={["interior-text"]}>Interior Photo Gallery</h2>
+        <div className="rooms">
+            <h2 className={["rooms-text"]}>Rooms Photo Gallery</h2>
             <div>{imageCards}</div>
             {lightboxDisplay ? <div id="lightbox" onClick={hideLightbox}>
-                <FaArrowAltCircleLeft onClick={showPrev} className="interior-left-arrow" />
+                <FaArrowAltCircleLeft onClick={showPrev} className="rooms-left-arrow" />
                 <img src={imageToShow} id="lightbox-img" alt="" ></img>
-                <FaArrowAltCircleRight onClick={showNext} className="interior-right-arrow" />
+                <FaArrowAltCircleRight onClick={showNext} className="rooms-right-arrow" />
             </div> : ""}
         </div>
     );
 }
 
+export default RoomsGallery;
 
 
-export default Interior;
+
+

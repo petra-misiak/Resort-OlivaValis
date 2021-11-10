@@ -1,4 +1,4 @@
-import react from 'react';
+
 import NavBar from './components/NavBar/NavBar';
 import './App.scss';
 import ImageCarousel from './components/Carousel/ImageCarousel';
@@ -7,6 +7,8 @@ import Links from './components/Links/Links';
 import CalendarPicker from './components/DatePicker/CalendarPicker';
 import Accommodation from './components/Accommodation/Accommodation';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Links />
       <Accommodation />
       <PhotoGallery />
+      <Contact />
+      <Footer />
     </div>
   );
 }

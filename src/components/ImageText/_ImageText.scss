@@ -1,39 +1,39 @@
+@import '../../scss/elements/colors';
+@import '../../scss/settings/fonts';
+
 .image-text{
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 1px;
-    background-color: rgb(252, 248, 248);
-
+    background-color: $color-lightgrey-space;
     &-top{
        display: flex;
        justify-content: space-around;
-
-
+       align-items: center;
        &-img1{
            width: 45%;
        }
-
        &-p1{
-           font-size: 30px;
-           font-family: 'Roboto';
+           font-size: 27px;
+           font-family: $font-noto;
+           font-weight: 100;
            width: 40%;
-          
-
+           color: $color-section;
        }
     }
-
     &-bottom{
         display: flex;
         justify-content: space-around;
         margin-bottom: 10px;
-        
+        align-items: center;
         &-p2{
-            font-size: 30px;
-            font-family: 'Roboto';
+            font-size: 27px;
+            font-family: $font-noto;
+            font-weight: 100;
             width: 40%;
+            color: $color-section;
         }
-        
         &-img2{
             width: 45%;
         }

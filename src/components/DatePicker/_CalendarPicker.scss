@@ -1,75 +1,73 @@
+@import '../../scss/elements/colors';
+@import '../../scss/settings/fonts';
+
 .calendar-picker{
-    background-color: rgb(82, 80, 80);
+    background-color: $color-section;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px;
     margin-top: 27px;
     border-radius: 3px;
-    border: 2px solid rgb(82, 80, 80);
-   
-   
+    border: 2px solid $color-hover;
+    width: 100%;
 
-
-    &-arrival{
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
+    &-all{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+        &-arrival{
+            color: $color-white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            &-lab1{
+                width: 53%;
+                font-size: 18px;
+                margin-right: 15px;
+                font-family: $font-noto;
+            }
+            &-wrapper{
+                padding: 7px;
+                border: 2px solid $color-hover;
+                border-radius: 5px;
+                margin-right: 15px;
+            }    
+        }
+        &-departure{
+            color: $color-white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            &-lab2{
+                width: 73%;
+                font-size: 18px;
+                margin-right: 15px;
+                font-family: $font-noto;
+            }
+            
+            &-wrapper{
+                padding: 7px;
+                border: 2px solid $color-hover;
+                border-radius: 5px;
+            }
+        }
+    }
+    .button{
+            background-color: $color-button;
+            color: $color-white;
+            font-size: 16px;
+            padding: 15px 35px;
+            border-radius:10px ;
+            border: 2px solid $color-hover;
+            font-family: $font-noto;
+            margin-left: 40px;
       
-
-
-        &-lab1{
-            width: 50%;
-            font-size: 18px;
-            margin-right: 15px;
-        }
-
-        &-wrapper{
-            padding: 7px;
-            border: 2px solid black;
-            border-radius: 5px;
-            margin-right: 15px;
-        }
-
-
         
     }
-
-    &-departure{
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-       
-        &-lab2{
-            width: 70%;
-            font-size: 18px;
-            margin-right: 15px;
-        }
-
-        &-wrapper{
-            padding: 7px;
-            border: 2px solid black;
-            border-radius: 5px;
-        }
-    }
-
-
-}
-
-.button{
-    background-color: rgb(22, 22, 22);
-    color: white;
-    font-size: 17px;
-    padding: 15px;
-    border-radius:10px ;
-    border: 2px solid rgb(22, 22, 22);
-    margin-left: 30px;
-
 }
 // .summary{
 //     display: flex;

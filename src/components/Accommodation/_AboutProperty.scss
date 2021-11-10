@@ -1,17 +1,23 @@
+@import '../../scss/elements/colors';
+@import '../../scss/settings/fonts';
+
+
 .text-description{
     display: flex;
     justify-content: center;
-    background-color: rgb(252 248 248);
-
-
+    background-color: $color-lightgrey-space;
     &-left{
         width: 20%;
         text-align: end;
-        color: rgb(169 169 169);
+        color: $color-lightgrey-text;
         margin-right: 20px;
+        font-family: $font-noto;
+        font-size: 20px;
     }
     &-right{
         width: 50%;
+        font-family: $font-noto;
+        font-size: 17px;
+        color: $color-section;  
     }
-
 }

@@ -1,5 +1,5 @@
 import Interior from './Interior';
-import Rooms from './Rooms';
+import RoomsGallery from './RoomsGallery';
 import './_PhotoGallery.scss';
 
 const PhotoGallery = () => {
@@ -7,7 +7,7 @@ const PhotoGallery = () => {
         <section>
             <div className={["photo-gallery"]}>PHOTO GALLERY</div>
             <Interior />
-            <Rooms />
+            <RoomsGallery />
         </section>
     )
 }

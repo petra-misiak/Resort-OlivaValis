@@ -1,3 +1,6 @@
+@import '../../scss/elements/colors';
+@import '../../scss/settings/fonts';
+
 .carousel{
     width: 100%;
     position: relative;
@@ -10,9 +13,9 @@
     &-right{
         position: absolute;
         top: 50%;
-        right: 150px;
+        right: 130px;
         font-size: 3rem;
-        color: rgb(212, 209, 209);
+        color: $color-arrows;
         z-index: 10;
         cursor: pointer;
         user-select: none;
@@ -20,9 +23,9 @@
     &-left{
         position: absolute;
         top: 50%;
-        left: 150px;
+        left: 130px;
         font-size: 3rem;
-        color: rgb(212, 209, 209);
+        color: $color-arrows;
         z-index: 10;
         cursor: pointer;
         user-select: none;

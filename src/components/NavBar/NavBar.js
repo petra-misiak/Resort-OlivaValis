@@ -12,7 +12,7 @@ const NavBar = () => {
 
     return (
         <nav className={['navbar']}>
-            <h1 className={['navbar-logo']}>Oliva Valis</h1>
+            <h1 className={['navbar-logo']}>Apartment Resort OlivaVallis</h1>
             <div className={['navbar-icon']} onClick={handleClick}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
