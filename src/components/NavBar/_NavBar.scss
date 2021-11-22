@@ -5,7 +5,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
+    box-shadow: 0 -5px 40px $color-hover;
 
     &-logo{
         font-family: $font-tangerine;

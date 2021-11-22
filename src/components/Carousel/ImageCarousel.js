@@ -18,7 +18,7 @@ const ImageCarousel = ({ slides }) => {
 
     return (
         <section className="carousel">
-            <div>
+            <div id="carousel">
                 <FaArrowAltCircleRight className="carousel-right" onClick={nextSlide} />
             </div>
             <FaArrowAltCircleLeft className="carousel-left" onClick={prevSlide} />

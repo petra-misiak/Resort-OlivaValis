@@ -5,10 +5,11 @@ import Icons from './Icons';
 import Pictures from './Pictures';
 import './_Accommodation.scss';
 
+
 const Accommodation = () => {
     return (
         <section>
-            <div className="accommodation">ACCOMMODATION</div>
+            <div id="accommodation" className="accommodation">ACCOMMODATION</div>
             <Pictures />
             <Icons />
             <AboutProperty />

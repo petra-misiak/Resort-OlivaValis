@@ -5,7 +5,7 @@ import './_PhotoGallery.scss';
 const PhotoGallery = () => {
     return (
         <section>
-            <div className={["photo-gallery"]}>PHOTO GALLERY</div>
+            <div id="photo-gallery" className={["photo-gallery"]}>PHOTO GALLERY</div>
             <Interior />
             <RoomsGallery />
         </section>

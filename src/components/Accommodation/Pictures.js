@@ -8,7 +8,7 @@ const Pictures = () => {
     const [lightboxDisplay, setLightboxDisplay] = useState(false);
 
     const imageCards = images.map((image) => (
-        <img src={image} className={["rooms-img"]} onClick={() => showImage(image)} alt="" />
+        <img key={image} src={image} className={["rooms-img"]} onClick={() => showImage(image)} alt="" />
     ));
 
     const showImage = (image) => {
